@@ -1,0 +1,343 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:arial, sans-serif;
+}
+
+
+body{
+        min-height:100vh;
+    display:flex;
+    flex-direction:column;
+
+    background: #f5efeb;
+    color:#222;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Header */
+header{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 0;
+    color: #f5efeb;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 20px 5%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #2F4156;
+    z-index: 1000;
+}
+
+nav{
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#f5efeb;
+    font-size:20px;
+}
+
+.login-btn{
+    padding:10px 25px;
+    background:white;
+    border:1px solid #999;
+}
+
+/* Beranda */
+.beranda{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:70px 0;
+}
+
+.beranda-text{
+    width:45%;
+}
+
+.beranda h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.beranda p{
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.beranda button{
+    background:#2F4156;
+    color:white;
+    border:none;
+    padding:15px 35px;
+}
+
+.beranda-image{
+    width:400px;
+    height:350px;
+    background:#cfcfcf;
+    border-radius:0 0 0 80px;
+    overflow: hidden;
+}
+
+.beranda-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* PORTO */
+.portofolio{
+  text-align: center;
+  padding: 2rem;
+}
+
+/* FOTO PORTO */
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+.feature {
+  background-color: #c8d9e6;
+  border: 1px solid #2f4156;
+  border-radius: 8px;
+  flex: 1 1 250px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.feature-img {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.card-wrapper{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.card{
+    width: 250px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    height:400px;
+    object-fit: cover;
+    display: block;
+    background:#567C8D;
+}
+
+.card button{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#2F4156;
+    color: #f5efeb;
+}
+
+/* TENTANG */
+.tentang{
+    width:90%;
+    margin:auto;
+    display:flex;
+    gap:50px;
+    align-items:center;
+    padding:100px 0;
+}
+
+.tentang-image{
+    width:350px;
+    height:350px;
+    background:#ccc;
+    border-radius:80px 0 0 0;
+}
+
+.tentang-content{
+    flex:1;
+}
+
+.tentang-content h2{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.stats{
+    display:flex;
+    margin-top:40px;
+}
+
+.stats div{
+    background:#444;
+    color:white;
+    padding:20px 30px;
+}
+
+
+
+
+
+/* CV */
+.cv{
+    width:90%;
+    margin:auto;
+    display:flex;
+    gap:30px;
+    padding:100px 0;
+}
+
+.cv-info{
+    width:30%;
+}
+
+.cv-info h2{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.cv-info button{
+    margin-top:30px;
+    background:white;
+    border:1px solid gray;
+    padding:15px 35px;
+}
+
+.cv-card{
+    flex:1;
+}
+
+.cv-card .img{
+    height:320px;
+    background:#bbb;
+}
+
+/* Kontak */
+.contact{
+    padding:80px 0;
+    text-align:center;
+}
+.contact h2{
+    font-size:42px;
+    color:#30445e;
+    margin-bottom:10px;
+}
+.contact p{
+    color:#666;
+    margin-bottom:40px;
+}
+.contact-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.contact-card{
+    width:280px;
+    padding:30px;
+    background:white;
+    border-radius:15px;
+    text-decoration:none;
+    color:#222;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+.contact-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+.icon{
+    font-size:50px;
+    margin-bottom:15px;
+}
+.contact-card h3{
+    color:#30445e;
+    margin-bottom:10px;
+}
+.contact-card span{
+    color:#666;
+    font-size:14px;
+}
+
+
+/* Footer */
+.zxq-footer-2025{
+    width:100vw;
+    margin:0;
+    padding:40px 20px;
+
+    background:#2F4156;
+    color:white;
+
+    text-align:center;
+
+    position:relative;
+    left:50%;
+    right:50%;
+    margin-left:-50vw;
+    margin-right:-50vw;
+}
+
+.zxq-footer-content h3{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.zxq-footer-content p{
+    margin-bottom:20px;
+    color:#d9d9d9;
+}
+
+.zxq-footer-links{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-bottom:20px;
+}
+
+.zxq-footer-links a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.zxq-footer-links a:hover{
+    color:#C8D9E6;
+}
+
+.zxq-footer-content span{
+    font-size:14px;
+    color:#d9d9d9;
+}
